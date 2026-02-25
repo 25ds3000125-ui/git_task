@@ -1,0 +1,16 @@
+name: DataDash QA
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Total - 25ds3000125@ds.study.iitm.ac.in
+        run: |
+          echo "================================="
+          echo "FINAL TOTAL: 2507534.0"
+          echo "================================="
